@@ -2,7 +2,7 @@ const form = document.querySelector("section.top-banner form")
 const input = document.querySelector(".container input")
 const msg = document.querySelector("span.msg")
 const list = document.querySelector(".ajax-section ul.cities")
-//  localStorage.setItem("tokenKeyEncrypted", EncryptStringAES("9404aa205e96eb468edabd0b60bb076d"));
+
 localStorage.setItem("tokenKey", "rRr21vRA4tVv1hixjsjtAegs0A4PTuzxkCSyjwxel3B3ziLkUyXBib7uXguDK1ls")
 
 form.addEventListener("submit", (e) => {
